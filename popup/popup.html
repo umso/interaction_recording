@@ -1,0 +1,62 @@
+<!doctype html>
+
+<html>
+    <head>
+        <script type='text/javascript' src='../vendor/underscore-min.js'></script>
+        <script type='text/javascript' src='../vendor/jquery-2.1.4.min.js'></script>
+        <script type='text/javascript' src='../vendor/jquery-ui-1.11.4.custom/jquery-ui.min.js'></script>
+        <script type='text/javascript' src='../vendor/mdl/material.min.js'></script>
+        <script type='text/javascript' src='../eventCodes.js'></script>
+        <script type='text/javascript' src='widgets.js'></script>
+        <script type='text/javascript' src='macroName.js'></script>
+        <script type='text/javascript' src='actionDisplay.js'></script>
+        <script type='text/javascript' src='gotoDisplay.js'></script>
+        <script type='text/javascript' src='clickDisplay.js'></script>
+        <script type='text/javascript' src='recorderLink.js'></script>
+        <script type='text/javascript' src='upload.js'></script>
+        <script type='text/javascript' src='popup.js'></script>
+        <link rel='stylesheet' href='../vendor/mdl/material.min.css'>
+        <link rel='stylesheet' href='../vendor/mdl/MaterialIcons.css'>
+        <link type='text/css' rel='stylesheet' href='popup.css'>
+    </head>
+    <body>
+        <div style='display: none;' id='introduction_card' class='mdl-card mdl-shadow--2dp title-card'>
+            <div class='mdl-card__title'>
+                <h2 class='mdl-card__title-text'>Voice&nbsp;Commander</h2>
+            </div>
+            <div class='mdl-card__supporting-text'>
+                Voice Commander allows you to define custom voice-directed commands by demonstrating them in Chrome.
+            </div>
+            <a id='createCommand' class='mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect'>
+                Start Recording
+            </a>
+        </div>
+        <div style='display: none;' class='mdl-card mdl-shadow--2dp'>
+            <div class='mdl-card__title'>
+                <h2 id='macroName' class='mdl-card__title-text'></h2>
+            </div>
+        </div>
+        <div style='display: none;' id='actions_card' class='mdl-card mdl-shadow--2dp'>
+            <div class="mdl-card__actions">
+                <a id='stopRecording' class='mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect'>
+                Upload Command
+                </a>
+                <a id='cancelRecording' class='mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect'>
+                Cancel
+                </a>
+            </div>
+            <div id='actionDisplay'></div>
+        </div>
+        <div style='display: none; text-align: center;padding: 15px;' id='uploading_card' class='mdl-card mdl-shadow--2dp'>
+            <div style = 'margin: auto' class="mdl-spinner mdl-js-spinner is-active"></div>
+            <div class='mdl-card__supporting-text'>
+                Uploading Command
+            </div>
+        </div>
+        <div style='display: none; text-align: center;padding: 15px;' id='error_card' class='mdl-card mdl-shadow--2dp'>
+            <div class='mdl-card__supporting-text' id='errorMessage'></div>
+            <div class="mdl-card__actions" id='errorActions'>
+            </div>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,189 @@
+.title-card > .mdl-card__title {
+  color: #fff;
+  background-color: #2C3E50;
+}
+
+.recording-card > .mdl-card__title {
+	color: #fff;
+	background-color: #E74C3C;
+}
+
+.mdl-card {
+	/*
+	background-color: #ECF0F1
+	*/
+}
+.recording-card > .mdl-card__actions {
+	background-color: #ECF0F1
+}
+.mdl-button.mdl-button--colored {
+	color: #E74C3C;
+}
+
+
+.command {
+    color: #333;
+}
+
+.uri {
+    color: #666;
+}
+.uri > .delimiter {
+    color: #AAA;
+}
+.uri > .hostName {
+    color: #666;
+}
+.uri > .protocol {
+    color: #AAA;
+}
+.uri > .path {
+    color: #AAA;
+}
+
+#variables_card {
+    /*
+	background-color: #ECF0F1;
+    background-color: #2C3E50;
+    */
+}
+
+.instructions {
+	background-color: #ECF0F1;
+}
+
+#actions_card {
+    background-color: white;
+}
+
+#variables_card > .mdl-card__title {
+    /*background-color: #3498DB;*/
+	background-color: #E74C3C;
+    color: white;
+}
+
+.step_number {
+    background-color: #666;
+    margin: 3px;
+    margin-left: 14px;
+    display: inline-block;
+    text-align: center;
+
+    border-radius: 50%;
+    width: 28px;
+    height: 28px;
+    opacity: 0.75;
+}
+
+.step_number > p.num {
+    color: white;
+    margin: 10% auto 0 auto;
+    font-family: "HelveticaNeue-UltraLight", "Helvetica Neue UltraLight", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    font-weight: 100;
+}
+
+.step {
+    border-bottom: 1px solid #DDD;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    font-weight: 300;
+}
+
+.step:last-child {
+    border-bottom: none;
+}
+
+.highlight0 {
+    background-color:   #E2FF00;
+} /* yellow */
+.highlight1 {
+    background-color:   #FF9900;
+} /* orange */
+.highlight2 {
+    background-color:   #FF99FF;
+} /* red */
+.highlight3 {
+    background-color:   #00FF00;
+} /* green */
+.highlight4 {
+    background-color:   #00CFFF;
+} /* blue */
+
+.highlight {
+    padding-left: 2px;
+    padding-right: 2px;
+    /*color: #AAA;*/
+    border-radius: 2px;
+    color: black;
+}
+
+.vc-var {
+    font-size: 0.8em;
+    font-weight: lighter;
+    margin: 5px;
+    white-space: nowrap;
+    display: inline-block;
+}
+
+.vc-var > .var-name {
+    font-weight: normal;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+    padding: 4px;
+}
+
+.vc-var > .var-value {
+    font-weight: lighter;
+    color: white;
+    padding: 4px;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.mdl-card {
+    min-height: 30px;
+}
+
+#variables_card .variable-display {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: #DDD;
+}
+
+#variables_card.instructions {
+	background-color: #ECF0F1;
+}
+
+#variables_card {
+	background-color: #AD4236;
+}
+
+#createCommand {
+    border-top: 1px solid #EEE;
+}
+
+#stopRecording {
+    color: white;
+	background-color: #E74C3C;
+}
+
+#stopRecording:hover {
+	background-color: #AD4236;
+}
+
+.variableInstructions {
+    font-weight: lighter;
+    padding: 0px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.variable-display .mdl-button {
+    font-size: 0.7em;
+    color: white;
+}
+.instructions .variable-display .mdl-button {
+	color: #E74C3C;
+}
